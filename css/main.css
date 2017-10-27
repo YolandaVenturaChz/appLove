@@ -13,27 +13,28 @@
   box-sizing: border-box;
 }*/
 
-body {
-  margin: 0 auto;
-  font-size: 16px;
+/*body {
+  margin-left: 0;
+  margin-right: 0;
+  display:block;
   line-height: 1.71429;
-}
+}*/
 
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
   display: inline-table;
-
+  margin: 0px 192px 55px -7px;
 }
 
-.container:before, .container:after {
+/*.container:before, .container:after {
   content: " ";
   display: table;
-}
+}*/
 
 *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -123,16 +124,17 @@ section.bg{
 }
  .text-uppercase h2{
   font-size: 23px;
-  margin:0;
+  margin-top:53px;
+  margin-bottom: 10px;
+  color: white;
 }
 .text-uppercase h1{
   font-size: 50px;
-  margin-bottom: 0;
   color: white;
+  margin-bottom: 0;
 }
 .text-uppercase p{
   font-size: 17px;
-  margin-top:0;
   color:white;
 }
 .text-uppercase button{
@@ -157,22 +159,18 @@ section.serv{
  
 }
 .one h2{
-  text-align: center;
   font-size: 38px;
   color:white;
-  text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
 }
 .one h4{
-  text-align: center;
   color:white;
   font-size: 17px;
-  text-decoration: none;
   font-family: sans-serif;
-  margin-top: 0;
   margin-bottom: 70px;
-
+  width: 60%;
+  margin-left: 247px;
 }
 .letters{
   display: inline-block;
@@ -199,7 +197,7 @@ margin-bottom: 0;
 font-family: sans-serif;
 }
 .work h2{
-  color: red;
+  color: black;
   text-align: center;
   font-family: verdana;
   font-size: 43px;
@@ -212,17 +210,43 @@ font-family: sans-serif;
   font-size: 19px;
   margin-bottom: 59px;
 }
-.container:after{
+.big{
+  width: 71%;
+  padding-left: 197px;
+}
+/*.container:after{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 
-}
-  .big{
-  width: 79%;
-  padding-left: 97px;
+}*/
+  
+.container p{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 55px;
 }
 .container img{
-  width: 50%;
-  
+  width: 25%;
+  margin-left: 92px;
+  margin-bottom: 28px;
+  margin-right: -227px;
+}
+
+footer{
+text-align: center;
+color:white;
+background-color: #373b47;
+height: 71px;
+}
+footer p{
+  font-size: 27px;
+  padding-top: 33px;
+}
+body{
+  display: block;
+  margin: 0;
 }
